@@ -1,0 +1,139 @@
+i am trying to solve this issues without results, please can some one help me to solve this issues
+
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+
+
+PS C:\Users\xxxx\AndroidStudioProjects\xxxx> flutter clean
+Deleting build...                                                   4,7s
+Deleting .dart_tool...                                              26ms
+Deleting Generated.xcconfig...                                       2ms
+Deleting flutter_export_environment.sh...                            2ms
+Deleting .flutter-plugins-dependencies...                           10ms
+Deleting .flutter-plugins...                                         2ms
+PS C:\Users\xxxx\AndroidStudioProjects\xxxx> flutter build apk
+Resolving dependencies... (2.9s)
+  _flutterfire_internals 1.3.16 (1.3.35 available)
+  cli_util 0.3.5 (0.4.1 available)
+  cloud_firestore 4.14.0 (4.17.5 available)
+  cloud_firestore_platform_interface 6.1.0 (6.2.5 available)
+  cloud_firestore_web 3.9.0 (3.12.5 available)
+  collection 1.17.2 (1.18.0 available)
+  connectivity_plus 5.0.2 (6.0.3 available)
+  connectivity_plus_platform_interface 1.2.4 (2.0.0 available)
+  cross_file 0.3.3+7 (0.3.4+1 available)
+  ffi 2.1.0 (2.1.2 available)
+  file 6.1.4 (7.0.0 available)
+  firebase_analytics 10.8.0 (10.10.7 available)
+  firebase_analytics_platform_interface 3.9.0 (3.10.8 available)
+  firebase_analytics_web 0.5.5+12 (0.5.7+7 available)
+  firebase_app_check 0.2.1+8 (0.2.2+7 available)
+  firebase_app_check_platform_interface 0.1.0+10 (0.1.0+29 available)
+  firebase_app_check_web 0.1.0+10 (0.1.2+7 available)
+  firebase_auth 4.16.0 (4.20.0 available)
+  firebase_auth_platform_interface 7.0.9 (7.3.0 available)
+  firebase_auth_web 5.8.13 (5.12.0 available)
+  firebase_core 2.24.2 (2.32.0 available)
+  firebase_core_web 2.10.0 (2.17.0 available)
+  firebase_crashlytics 3.4.9 (3.5.7 available)
+  firebase_crashlytics_platform_interface 3.6.16 (3.6.35 available)
+  firebase_messaging 14.7.10 (14.9.4 available)
+  firebase_messaging_platform_interface 4.5.18 (4.5.37 available)
+  firebase_messaging_web 3.5.18 (3.8.7 available)
+  firebase_storage 11.6.0 (11.7.7 available)
+  firebase_storage_platform_interface 5.1.3 (5.1.22 available)
+  firebase_storage_web 3.6.17 (3.9.7 available)
+  flutter_cache_manager 3.3.1 (3.3.2 available)
+  flutter_launcher_icons 0.11.0 (0.13.1 available)
+  flutter_native_splash 2.2.16 (2.4.0 available)
+  flutter_plugin_android_lifecycle 2.0.18 (2.0.20 available)
+  geolocator 10.1.1 (12.0.0 available)
+  geolocator_android 4.3.1 (4.6.0 available)
+  geolocator_web 2.2.1 (4.0.0 available)
+  google_mobile_ads 2.4.0 (5.1.0 available)
+  http 0.13.6 (1.2.1 available)
+  image 3.3.0 (4.2.0 available)
+  image_picker 1.0.8 (1.1.2 available)
+  image_picker_android 0.8.9+5 (0.8.12+3 available)
+  image_picker_for_web 3.0.2 (3.0.4 available)
+  image_picker_ios 0.8.9+1 (0.8.12 available)
+  image_picker_platform_interface 2.9.3 (2.10.0 available)
+  infinite_scroll_pagination 3.2.0 (4.0.0 available)
+  js 0.6.7 (0.7.1 available)
+  matcher 0.12.16 (0.12.16+1 available)
+  material_color_utilities 0.5.0 (0.11.1 available)
+  meta 1.9.1 (1.15.0 available)
+  mime 1.0.4 (1.0.5 available)
+  package_info_plus 3.1.2 (8.0.0 available)
+  package_info_plus_platform_interface 2.0.1 (3.0.0 available)
+  path 1.8.3 (1.9.0 available)
+  path_provider_android 2.2.3 (2.2.5 available)
+  path_provider_foundation 2.3.2 (2.4.0 available)
+  permission_handler 10.4.5 (11.3.1 available)
+  permission_handler_android 10.3.6 (12.0.6 available)
+  permission_handler_apple 9.1.4 (9.4.4 available)
+  permission_handler_platform_interface 3.12.0 (4.2.1 available)
+  permission_handler_windows 0.1.3 (0.2.1 available)
+  petitparser 5.4.0 (6.0.2 available)
+  share_plus 6.3.4 (9.0.0 available)
+  share_plus_platform_interface 3.4.0 (4.0.0 available)
+  shared_preferences_android 2.2.1 (2.2.3 available)
+  shared_preferences_foundation 2.3.5 (2.4.0 available)
+  shared_preferences_web 2.2.1 (2.3.0 available)
+  shimmer 2.0.0 (3.0.0 available)
+  sqflite 2.3.2 (2.3.3+1 available)
+  sqflite_common 2.5.3 (2.5.4 available)
+  stack_trace 1.11.0 (1.11.1 available)
+  stream_channel 2.1.1 (2.1.2 available)
+  test_api 0.6.0 (0.7.2 available)
+  url_launcher 6.2.4 (6.2.6 available)
+  url_launcher_android 6.3.0 (6.3.3 available)
+  url_launcher_ios 6.2.4 (6.3.0 available)
+  url_launcher_web 2.2.0 (2.3.1 available)
+  uuid 3.0.7 (4.4.0 available)
+  visibility_detector 0.3.3 (0.4.0+2 available)
+  web 0.1.4-beta (0.5.1 available)
+  webview_flutter 2.8.0 (4.8.0 available)
+  webview_flutter_android 2.10.4 (3.16.4 available)
+  webview_flutter_platform_interface 1.9.5 (2.10.0 available)
+  webview_flutter_wkwebview 2.9.5 (3.13.1 available)
+  win32 3.1.4 (5.5.1 available)
+  xml 6.3.0 (6.5.0 available)
+Got dependencies!
+
+Building with Flutter multidex support enabled.
+Note: C:\Users\xxxx\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_app_check-0.2.1+8\android\src\main\java\io\flutter\plugins\firebase\appcheck\FlutterFireb
+aseAppCheckPlugin.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: C:\Users\xxxx\AppData\Local\Pub\Cache\hosted\pub.dev\cloud_firestore-4.14.0\android\src\main\java\io\flutter\plugins\firebase\firestore\FlutterFirebase
+FirestorePlugin.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: C:\Users\xxxx\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_messaging-14.7.10\android\src\main\java\io\flutter\plugins\firebase\messaging\FlutterFire
+baseMessagingPlugin.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+C:\Users\xxxx\AppData\Local\Pub\Cache\hosted\pub.dev\google_mobile_ads-2.4.0\android\src\main\java\io\flutter\plugins\googlemobileads\FlutterAdManagerAdReque
+st.java:108: error: incompatible types: com.google.android.gms.ads.admanager.AdManagerAdRequest.Builder cannot be converted to com.google.android.gms.ads.AdRe
+quest.Builder
+    updateAdRequestBuilder(builder, adUnitId);
+                           ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 38s
+Running Gradle task 'assembleRelease'...                           39,8s
+Gradle task assembleRelease failed with exit code 1
